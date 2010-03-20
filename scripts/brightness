@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo setpci -s 00:02.01 F4.B=$1
