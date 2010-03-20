@@ -1,0 +1,27 @@
+! author: son nguyen
+
+!Urxvt
+URxvt.termName: rxvt
+URxvt.buffered: true
+URxvt.cursorBlink: true
+URxvt.transparent: True
+URxvt.geometry: 120x25
+URxvt.font: xft:Terminus:pixelsize=8:antialias=false
+
+! NO BORDERS AND NO SCROLL BARS
+URxvt*scrollBar_right: false
+URxvt*scrollBar: false
+URxvt*borderLess: false
+
+! Disable some transparency things
+URxvt*inheritPixmap: false
+URxvt*tintColor: #1A1A1A
+Urxvt*shading: 50
+
+! COLORS of urxvt
+URxvt.background: #1A1A1A
+URxvt.foreground: #999999
+Urxvt.cursorColor: #5E468C
+
+! COLOR
+#include "/home/kakason/.colors/dark"
